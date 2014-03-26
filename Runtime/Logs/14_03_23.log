@@ -1,0 +1,6 @@
+[ 2014-03-23T12:33:17+08:00 ] 0.0.0.0 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015396s ]
+ERR: Unknown database 'primir'
+

@@ -1,0 +1,1321 @@
+[ 2014-03-24T09:36:01+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.278122s ]
+ERR: Unknown database 'primir'
+
+[ 2014-03-24T09:38:13+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001837s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003668s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000468s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003883s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000446s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000281s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048594s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001382s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001270s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005739s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002613s ]
+
+[ 2014-03-24T10:50:56+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003780s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000456s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004051s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000417s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000268s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019729s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001032s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000877s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003744s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000936s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2014-03-24T10:51:39+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003651s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000447s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004038s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000386s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016519s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000763s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000638s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000551s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003088s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000839s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2014-03-24T10:53:40+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003667s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003769s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000449s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003888s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000420s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023424s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001034s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000944s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004174s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001157s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2014-03-24T10:55:36+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.004879s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000425s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004129s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.001327s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019396s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000674s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000694s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000510s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003392s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000969s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2014-03-24T10:59:39+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003446s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000428s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004824s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000622s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000298s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021014s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000971s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000735s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000626s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003506s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000943s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2014-03-24T10:59:51+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003386s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000449s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.005413s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000310s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000231s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022433s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002428s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001050s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000981s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005683s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000953s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2014-03-24T11:04:45+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003471s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000464s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003978s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000418s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022221s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000924s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000774s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004397s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001536s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001703s ]
+
+[ 2014-03-24T11:04:47+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003965s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000428s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004158s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000456s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000299s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020229s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000728s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000620s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002847s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000799s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2014-03-24T11:04:50+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003523s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000513s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003908s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000350s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022662s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001035s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000893s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000768s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003958s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001044s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2014-03-24T11:04:50+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003327s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003579s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000439s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003830s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000522s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000260s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022568s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001038s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000906s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003962s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001075s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2014-03-24T11:07:00+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003811s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000511s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003822s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000336s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019833s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000737s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000644s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002838s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001705s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001810s ]
+
+[ 2014-03-24T11:15:57+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003517s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000488s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004337s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000377s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023331s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001049s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001031s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000907s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004743s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001402s ]
+
+[ 2014-03-24T11:17:44+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.004355s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000454s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004451s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000359s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019618s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000735s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001321s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000519s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003611s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000769s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2014-03-24T11:19:27+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003939s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.001076s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004616s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000344s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019772s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000707s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000630s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000476s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002855s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000758s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2014-03-24T11:36:52+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003790s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000478s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004036s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000401s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022115s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001020s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000948s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000776s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004094s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001174s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2014-03-24T11:36:54+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003416s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000438s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004838s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000371s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021367s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001017s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000921s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004376s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001420s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2014-03-24T11:37:01+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002063s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003831s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000455s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003886s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000463s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000350s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000691s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000624s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002799s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2014-03-24T11:40:12+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.004408s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000855s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004485s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000347s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020421s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000754s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001122s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003529s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000806s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2014-03-24T12:57:01+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.004357s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000505s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004043s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000339s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024927s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001024s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000931s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000889s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004187s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001087s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2014-03-24T12:59:03+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.004377s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000530s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004065s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000336s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019233s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000911s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000802s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000578s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003350s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000764s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2014-03-24T12:59:05+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.004087s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000528s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003921s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000336s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000249s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021585s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001345s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000838s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004404s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001027s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2014-03-24T12:59:06+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003746s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000481s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003774s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000316s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022218s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000904s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000914s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000864s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003971s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001678s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001778s ]
+
+[ 2014-03-24T12:59:36+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003914s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mir_category`
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000537s ]
+ERR: 1146:Table 'primir.mir_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `mir_category` WHERE ( `pid` = 1 ) 
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004371s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000343s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021582s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001490s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000990s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000793s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004563s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001043s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2014-03-24T13:09:40+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003835s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003986s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000482s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000740s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022739s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001424s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001244s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000686s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004555s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000930s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2014-03-24T15:16:36+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009363s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003838s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004333s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000512s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000735s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052667s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001742s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001777s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001238s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006591s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.016680s ]
+INFO: [ view_end ] --END-- [ RunTime:0.016799s ]
+
+[ 2014-03-24T15:21:03+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003919s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004056s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000491s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000833s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023429s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001167s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002056s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000677s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005089s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000884s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2014-03-24T15:21:21+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003716s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.005472s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000524s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021028s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000920s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000675s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003058s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000817s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2014-03-24T15:21:23+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003744s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004360s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000444s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000661s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021315s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001325s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000728s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000632s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003965s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2014-03-24T15:21:23+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.004614s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004347s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000470s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000630s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021831s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001302s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001105s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000908s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004642s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001206s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2014-03-24T15:24:54+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003982s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003874s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000428s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000709s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020467s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001002s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000655s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003174s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000828s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2014-03-24T15:32:10+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.004842s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.005267s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000468s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000679s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020472s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001652s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000922s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000509s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004136s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000724s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2014-03-24T15:33:18+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002348s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.004107s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004577s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000470s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000656s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021703s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001274s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001108s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000938s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004803s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2014-03-24T15:34:33+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003971s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003873s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000463s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000652s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022614s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001205s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001785s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001184s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005665s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001193s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2014-03-24T15:44:49+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003981s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004072s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000506s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000655s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022365s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001428s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001658s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001240s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006263s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001054s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2014-03-24T15:45:49+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003591s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004445s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000478s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000642s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020277s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001053s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000633s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000497s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003196s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2014-03-24T15:46:34+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003814s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004356s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000450s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000815s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021385s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000957s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000636s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003205s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000755s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2014-03-24T15:47:03+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003691s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003912s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000640s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000645s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024887s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001407s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001737s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001539s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006326s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001103s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2014-03-24T15:47:26+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003898s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003926s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000868s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000765s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021353s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000881s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000645s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002994s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000738s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2014-03-24T15:47:26+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003786s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003891s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000446s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000948s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018273s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000771s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000551s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000363s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002586s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2014-03-24T15:48:50+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.004037s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003910s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000475s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000838s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020533s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000882s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000632s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003609s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000838s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2014-03-24T15:58:03+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.004430s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004159s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000489s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000653s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019780s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000936s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000727s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000487s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003204s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000764s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2014-03-24T17:05:57+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.005442s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004799s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000526s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000696s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021348s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001705s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004493s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2014-03-24T17:18:52+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004007s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000604s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022594s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001312s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000964s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000803s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004452s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001238s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2014-03-24T17:19:16+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.004072s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004046s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000492s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020405s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000937s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000722s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000518s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003204s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000730s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2014-03-24T17:21:09+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.005080s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004066s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000746s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000972s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021853s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001006s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000631s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003178s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000962s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2014-03-24T17:21:38+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003796s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003738s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000487s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023628s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001262s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000925s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000766s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004249s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001023s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2014-03-24T17:21:51+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003681s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003795s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000430s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000784s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021994s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000909s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000683s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003080s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000745s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2014-03-24T17:34:45+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.004017s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004543s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000500s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000656s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024423s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001313s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000709s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000524s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003632s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000940s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2014-03-24T17:35:38+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.004886s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.003966s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000456s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027758s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001424s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000947s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000857s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004514s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001045s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2014-03-24T17:37:08+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.005254s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.005303s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000521s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000769s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027594s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001247s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001055s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000783s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004411s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001028s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2014-03-24T17:50:26+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.003691s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004598s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.001081s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000921s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025020s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001060s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000772s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001888s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005147s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001655s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2014-03-24T18:00:57+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002428s ]
+SQL: SHOW COLUMNS FROM `mir_category` [ RunTime:0.006600s ]
+SQL: SELECT * FROM `mir_category` WHERE ( `pid` = 1 )  [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `mir_product` [ RunTime:0.004170s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\Lib\Action\PreAction.class.php 第 9 行.
+SQL: SELECT * FROM `mir_product` WHERE ( `recommand` = 1 ) AND ( `status` = 0 ) LIMIT 10   [ RunTime:0.000500s ]
+SQL: SELECT * FROM `mir_product` WHERE ( `status` = 0 ) ORDER BY server_time  [ RunTime:0.000824s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027879s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001286s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000955s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001120s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004947s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001257s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001365s ]
+

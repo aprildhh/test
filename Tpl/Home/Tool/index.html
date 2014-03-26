@@ -1,0 +1,29 @@
+<include file="./Tpl/Home/Index/head.html"/> 
+	<div class="body">
+		<div class="content border">
+			<div class="intro" style="width:100%;">
+				<div class="imglist">
+					<div class="imgdiv">
+						<ul>
+                            <volist name="toolist" id="tli">
+							<li style="float:left">
+                            <span>{$tli.name|msubstr=0,13}</span>
+                           
+                                <div style="text-align:left;width:210px;height:130px">&nbsp;&nbsp;简介:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="/tool/detail/id/{$tli.pid}">{$tli.desc|msubstr=0,65}详情</div>
+                        </a	>
+                        
+                        <span >浏览量:{$tli.click}</span>
+                        <span>下载量:{$tli.download}</span>
+							</li>
+						    </volist>
+						</ul>
+					</div>
+				</div>
+				<div class="pagelist" style="width:605px;margin-top:0px;*width:626px;">
+                        {$page}
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- /body -->
+<include file="./Tpl/Home/Index/footer.html"/>

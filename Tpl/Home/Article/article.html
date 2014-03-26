@@ -1,0 +1,24 @@
+﻿<include file="./Tpl/Home/Index/head.html"/> 
+	<div class="body">
+		<div class="content border">
+			<div class="intro" style="height:500px;">
+				<h3 style="margin:20px 0px;">文章专区</h3>
+				<div class="position">当前位置:私服010>相关文章></div>
+				<div class="articlelist">
+					<ul style="text-align:left;margin-left:250px;">
+                        <volist name="list" id="li">
+                        <li><span><a href="/article/preview/id/{$li.pid}.html">{$key+1}</a></span><span><a href="/article/preview/id/{$li.pid}.html">{$li.title}</a></span></li>
+                        </volist>
+					</ul>
+				</div>
+				<div class="pagelist">
+					<ul>
+                        <li><a><strong>{$page}</strong></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- /body -->
+<include file="./Tpl/Home/Index/footer.html"/>
